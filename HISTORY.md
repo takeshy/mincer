@@ -1,7 +1,41 @@
-0.4.2 / coming....
+0.4.6 / 2013-04-23
+------------------
+
+* Added support for literate CoffeeScript `.litcoffee`. Closes #73.
+* Added `Coco` (Coffescript dialect) support, thanks to @utkarshkukreti
+* Added preliminary engines cache (currently for LESS only)
+* Improved visual look for 404 and other errors (show text in reply body)
+* Improved BSD compatibility, thanks to @utkarshkukreti
+* Improved `node_sass` support. Closes #76, thanks to @joshuairl.
+
+
+0.4.5 / 2013-02-17
+------------------
+
+* Added ECO engine (thanks to @abravalheri).
+* Allow use EJS as JST engine alongside as processor (thanks to @abravalheri).
+* Improve Windows support (thanks to @abravalheri).
+
+
+0.4.4 / 2013-01-26
+------------------
+
+* Expose original HTTP request object inside Server log event.
+* Provide filename for EJS engine (thanks to @CamShaft)
+
+
+0.4.3 / 2013-01-02
+------------------
+
+* Fix for LESS > v1.3.2 (improved paths calculation)
+
+
+0.4.2 / 2013-01-02
 ------------------
 
 * Added SASS support (thanks to @moddular)
+* Fixed Paths#clearPaths helper.
+* Simplify `asset_path` (and dependent built-in) hepers registration.
 
 
 0.4.1 / 2012-11-06

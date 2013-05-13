@@ -27,7 +27,7 @@ Or install bleeding edge version from GitHub repo:
 
 # Using Mincer from CLI
 
-To use Mincer from CLI, you will need to intall it globally:
+To use Mincer from CLI, you will need to install it globally:
 
     $ npm install mincer -g
 
@@ -251,7 +251,7 @@ binding.
 
 If the `coffee-script` Node module is available to your application, you can use
 CoffeeScript to write JavaScript assets in Mincer.
-Use the extension `.css.coffee`.
+Use the extension `.js.coffee`.
 
 
 ## JavaScript Templating with Haml Coffee
